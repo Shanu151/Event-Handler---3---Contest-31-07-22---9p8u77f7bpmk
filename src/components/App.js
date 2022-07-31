@@ -3,7 +3,8 @@ import '../styles/App.css';
 const App = () => {
 
   const handleInput = (event) =>{
-   console.log(`Input in #${event.target.id} is ${event.target.value}`);
+   // use console.log
+    console.log(`Input in #${event.target.id} is ${event.target.value}`);
   }
 
   // do not change id of input elements
